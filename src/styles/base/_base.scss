@@ -1,0 +1,24 @@
+// custom css properties/variables
+:root {
+  --color-primary: #0a98f0;
+  --color-grey-dark: #3e3e3e;
+  --color-grey-light: #727272;
+  --color-grey-light-2: #ededed;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; //1 rem = 10px;
+}
+
+body {
+  font-family: Sailec, "Segoe UI", sans-serif;
+  color: var(--color-grey-dark);
+}
