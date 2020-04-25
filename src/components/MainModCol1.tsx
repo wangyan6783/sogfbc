@@ -1,17 +1,17 @@
 import React from "react";
-import MainModule from "../components/MainModule";
 
-const HomePage: React.FC = () => {
+const MainModCol1: React.FC = () => {
   return (
-    <main>
+    <div className="main-mod-col">
       <img
-        className="home-image"
+        className="main-mod-col-image"
         src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1522517022/180331-_Parini_Taking_Back_Christianity-hero__tejwex"
-        alt="经历神的大能"
+        alt=""
       />
-      <MainModule />
-    </main>
+      <h2>主日崇拜線上看</h2>
+      <h3>Link to YouTube</h3>
+    </div>
   );
 };
 
-export default HomePage;
+export default MainModCol1;

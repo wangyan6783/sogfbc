@@ -1,0 +1,23 @@
+.main-mod {
+  display: flex;
+  margin: 3rem 0;
+
+  &-col {
+    background-color: var(--color-grey-light);
+    padding-bottom: 2rem;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+    &-image {
+      width: 100%;
+    }
+    h2 {
+      padding: 1.5rem 1.5rem 1rem 1.5rem;
+    }
+    h3 {
+      padding: 0.5rem 1.5rem;
+    }
+  }
+}
