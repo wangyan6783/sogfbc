@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
           <h2>關於我們</h2>
           <ul className="navbar-submenu">
             <li>
-              <h3>信仰與使命</h3>
+              <h3>我們的信仰</h3>
             </li>
             <li>
               <h3>教會簡史</h3>

@@ -5,8 +5,12 @@
   cursor: pointer;
 
   &-menu {
-    & h2 {
+    & h2,
+    h3 {
       padding: 1rem;
+      &:hover {
+        color: var(--color-primary);
+      }
     }
     &:hover {
       & .navbar-submenu {
@@ -21,10 +25,5 @@
     width: 20rem;
     background-color: var(--color-white);
     position: absolute;
-    transition: all 0.3s;
-
-    & li {
-      padding: 1rem;
-    }
   }
 }
