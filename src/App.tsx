@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage";
 
 const App: React.FC = () => {
   return (
-    <>
+    <div className="app">
       <Header />
       <Navbar />
       <Router>
@@ -15,7 +15,7 @@ const App: React.FC = () => {
           <Route path="/home" exact render={() => <HomePage />} />
         </Switch>
       </Router>
-    </>
+    </div>
   );
 };
 

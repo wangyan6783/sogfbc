@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+
+  &-menu {
+    & h2 {
+      padding: 1.5rem 1rem;
+    }
+    &:hover {
+      & .navbar-submenu {
+        display: block;
+      }
+    }
+  }
+
+  &-submenu {
+    list-style: none;
+    display: none;
+    width: 20rem;
+    background-color: var(--color-white);
+    position: absolute;
+    transition: all 0.3s;
+
+    & li {
+      padding: 1rem;
+    }
+  }
+}

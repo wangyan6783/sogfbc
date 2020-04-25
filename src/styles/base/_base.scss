@@ -1,9 +1,10 @@
 // custom css properties/variables
 :root {
-  --color-primary: #0a98f0;
+  --color-primary: #8888ff;
   --color-grey-dark: #3e3e3e;
   --color-grey-light: #727272;
-  --color-grey-light-2: #ededed;
+  --color-grey-light-2: #f4f4f4;
+  --color-white: #ffffff;
 }
 
 *,
@@ -21,4 +22,9 @@ html {
 body {
   font-family: Sailec, "Segoe UI", sans-serif;
   color: var(--color-grey-dark);
+}
+
+.app {
+  width: 85%;
+  margin: 0 auto;
 }
