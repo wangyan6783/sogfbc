@@ -1,0 +1,16 @@
+.sidebar {
+  position: absolute;
+  height: 50rem;
+  width: 15rem;
+  background-color: var(--color-grey-light);
+
+  h2 {
+    color: var(--color-grey-light);
+    background-color: var(--color-grey-medium);
+  }
+
+  h2,
+  h3 {
+    padding: 0.5rem 1rem;
+  }
+}

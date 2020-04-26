@@ -1,5 +1,5 @@
 import React from "react";
-import MainModule from "../components/MainModule";
+import MainModule from "../components/homepage/MainModule";
 
 const HomePage: React.FC = () => {
   return (

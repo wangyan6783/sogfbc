@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import navbarData from "../data/navbar.data.json";
 
 const Navbar: React.FC = () => {
   const [showAboutUs, setShowAboutUs] = useState(false);
   const [showEvents, setShowEvents] = useState(false);
   const [showMinistry, setShowMinistry] = useState(false);
   const [showCommunity, setShowCommunity] = useState(false);
+
+  console.log(navbarData);
 
   return (
     <nav>

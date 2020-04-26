@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "main-menu": "關於我們",
+      "sub-menu": [
+        { "title": "我們的信仰", "link": "/our-belief" },
+        { "title": "教會簡史", "link": "/church-history" },
+        { "title": "聚會時間", "link": "/hours" }
+      ]
+    },
+    {
+      "main-menu": "教會活動",
+      "sub-menu": [
+        { "title": "主日週報", "link": "/bulletin" },
+        { "title": "主日視頻", "link": "/service-videos" },
+        { "title": "活動照片", "link": "/photo-gallery" }
+      ]
+    },
+    {
+      "main-menu": "教會事工",
+      "sub-menu": [
+        { "title": "兒童事工", "link": "/children-ministry" },
+        { "title": "英文事工", "link": "/english-ministry" },
+        { "title": "小組聚會", "link": "/life-groups" },
+        { "title": "成人主日學", "link": "/sunday-school" },
+        { "title": "門徒訓練", "link": "/disciple-training" }
+      ]
+    },
+    {
+      "main-menu": "社區中心",
+      "sub-menu": [{ "title": "舞蹈學校", "link": "/dance-school" }]
+    },
+    {
+      "main-menu": "支持我們",
+      "sub-menu": []
+    }
+  ]
+}
