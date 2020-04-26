@@ -12,11 +12,11 @@
         color: var(--color-primary);
       }
     }
-    &:hover {
-      & .navbar-submenu {
-        display: block;
-      }
-    }
+    // &:hover {
+    //   & .navbar-submenu {
+    //     display: block;
+    //   }
+    // }
   }
 
   &-submenu {
@@ -25,5 +25,9 @@
     width: 20rem;
     background-color: var(--color-white);
     position: absolute;
+
+    &.show {
+      display: block;
+    }
   }
 }

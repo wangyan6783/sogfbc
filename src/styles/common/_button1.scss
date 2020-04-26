@@ -8,8 +8,10 @@
   transition: all 0.3s;
 
   &:hover {
-    color: var(--color-grey-light);
-    background-color: var(--color-grey-dark);
-    border: none;
+    // color: var(--color-grey-light);
+    // background-color: var(--color-grey-dark);
+    // border: none;
+    color: var(--color-primary);
+    border: solid var(--color-primary) 1px;
   }
 }

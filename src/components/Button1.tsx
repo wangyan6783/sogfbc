@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Button1: React.FC = () => {
   return (
-    <a href="https://www.youtube.com/watch?v=fwPXPVT7ybo" target="_blank">
+    <Link to="service-videos">
       <button className="button1" type="button">
         點擊這裡
       </button>
-    </a>
+    </Link>
   );
 };
 
