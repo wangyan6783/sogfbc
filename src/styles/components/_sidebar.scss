@@ -9,8 +9,15 @@
     background-color: var(--color-grey-medium);
   }
 
-  h2,
-  h3 {
+  h2 {
     padding: 0.5rem 1rem;
+  }
+
+  h3 {
+    padding: 1rem 1rem;
+
+    &:hover {
+      color: var(--color-primary);
+    }
   }
 }

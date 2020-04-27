@@ -1,7 +1,19 @@
 import React from "react";
+import Sidebar from "../components/Sidebar";
 
-const PhotoGalleryPage: React.FC = () => {
-  return <h1>活動照片</h1>;
+interface Props {
+  sidebarData: sidebarData;
+}
+
+const PhotoGalleryPage: React.FC<Props> = ({ sidebarData }) => {
+  return (
+    <>
+      <Sidebar sidebarData={sidebarData} />
+      <main className="main-content">
+        <h1>活動照片</h1>
+      </main>
+    </>
+  );
 };
 
 export default PhotoGalleryPage;

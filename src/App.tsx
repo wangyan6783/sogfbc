@@ -17,8 +17,10 @@ import SundaySchoolPage from "./pages/SundaySchoolPage";
 import DiscipleTrainingPage from "./pages/DiscipleTrainingPage";
 import DanceSchoolPage from "./pages/DanceSchoolPage";
 import SupportUsPage from "./pages/SupportUsPage";
+import navbarData from "./data/navbar.data.json";
 
 const App: React.FC = () => {
+  console.log(navbarData);
   return (
     <div className="app">
       <Router>
@@ -26,51 +28,81 @@ const App: React.FC = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact render={() => <HomePage />} />
-          <Route path="/our-belief" exact render={() => <OurBeliefPage />} />
+          <Route
+            path="/our-belief"
+            exact
+            render={() => <OurBeliefPage sidebarData={navbarData.data[0]} />}
+          />
           <Route
             path="/church-history"
             exact
-            render={() => <ChurchHistoryPage />}
+            render={() => (
+              <ChurchHistoryPage sidebarData={navbarData.data[0]} />
+            )}
           />
-          <Route path="/hours" exact render={() => <HoursPage />} />
-          <Route path="/bulletin" exact render={() => <BulletinPage />} />
+          <Route
+            path="/hours"
+            exact
+            render={() => <HoursPage sidebarData={navbarData.data[0]} />}
+          />
+          <Route
+            path="/bulletin"
+            exact
+            render={() => <BulletinPage sidebarData={navbarData.data[1]} />}
+          />
           <Route
             path="/service-videos"
             exact
-            render={() => <ServiceVideosPage />}
+            render={() => (
+              <ServiceVideosPage sidebarData={navbarData.data[1]} />
+            )}
           />
           <Route
             path="/photo-gallery"
             exact
-            render={() => <PhotoGalleryPage />}
+            render={() => <PhotoGalleryPage sidebarData={navbarData.data[1]} />}
           />
           <Route
             path="/children-ministry"
             exact
-            render={() => <ChildrenMinistryPage />}
+            render={() => (
+              <ChildrenMinistryPage sidebarData={navbarData.data[2]} />
+            )}
           />
           <Route
             path="/english-ministry"
             exact
-            render={() => <EnglishMinistryPage />}
+            render={() => (
+              <EnglishMinistryPage sidebarData={navbarData.data[2]} />
+            )}
           />
-          <Route path="/life-groups" exact render={() => <LifeGroupsPage />} />
+          <Route
+            path="/life-groups"
+            exact
+            render={() => <LifeGroupsPage sidebarData={navbarData.data[2]} />}
+          />
           <Route
             path="/sunday-school"
             exact
-            render={() => <SundaySchoolPage />}
+            render={() => <SundaySchoolPage sidebarData={navbarData.data[2]} />}
           />
           <Route
             path="/disciple-training"
             exact
-            render={() => <DiscipleTrainingPage />}
+            render={() => (
+              <DiscipleTrainingPage sidebarData={navbarData.data[2]} />
+            )}
           />
           <Route
             path="/dance-school"
             exact
-            render={() => <DanceSchoolPage />}
+            render={() => <DanceSchoolPage sidebarData={navbarData.data[3]} />}
           />
-          <Route path="/support-us" exact render={() => <SupportUsPage />} />
+          <Route
+            path="/support-us"
+            exact
+            render={() => <SupportUsPage sidebarData={navbarData.data[4]} />}
+          />
         </Switch>
         <Footer />
       </Router>

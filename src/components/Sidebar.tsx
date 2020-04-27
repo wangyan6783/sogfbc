@@ -1,19 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Sidebar: React.FC = () => {
+interface Props {
+  sidebarData: sidebarData;
+}
+
+const Sidebar: React.FC<Props> = ({ sidebarData }) => {
+  console.log(sidebarData);
   return (
     <aside className="sidebar">
-      <h2>關於我們</h2>
-      <Link to="/our-belief">
-        <h3>我們的信仰</h3>
-      </Link>
-      <Link to="/church-history">
-        <h3>教會簡史</h3>
-      </Link>
-      <Link to="/hours">
-        <h3>聚會時間</h3>
-      </Link>
+      <h2>{sidebarData.mainMenu}</h2>
+      {sidebarData.subMenu.map((subMenu) => (
+        <Link to={subMenu.link} key={subMenu.title}>
+          <h3>{subMenu.title}</h3>
+        </Link>
+      ))}
     </aside>
   );
 };

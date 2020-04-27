@@ -1,24 +1,24 @@
 {
   "data": [
     {
-      "main-menu": "關於我們",
-      "sub-menu": [
+      "mainMenu": "關於我們",
+      "subMenu": [
         { "title": "我們的信仰", "link": "/our-belief" },
         { "title": "教會簡史", "link": "/church-history" },
         { "title": "聚會時間", "link": "/hours" }
       ]
     },
     {
-      "main-menu": "教會活動",
-      "sub-menu": [
+      "mainMenu": "教會活動",
+      "subMenu": [
         { "title": "主日週報", "link": "/bulletin" },
         { "title": "主日視頻", "link": "/service-videos" },
         { "title": "活動照片", "link": "/photo-gallery" }
       ]
     },
     {
-      "main-menu": "教會事工",
-      "sub-menu": [
+      "mainMenu": "教會事工",
+      "subMenu": [
         { "title": "兒童事工", "link": "/children-ministry" },
         { "title": "英文事工", "link": "/english-ministry" },
         { "title": "小組聚會", "link": "/life-groups" },
@@ -27,12 +27,12 @@
       ]
     },
     {
-      "main-menu": "社區中心",
-      "sub-menu": [{ "title": "舞蹈學校", "link": "/dance-school" }]
+      "mainMenu": "社區中心",
+      "subMenu": [{ "title": "舞蹈學校", "link": "/dance-school" }]
     },
     {
-      "main-menu": "支持我們",
-      "sub-menu": []
+      "mainMenu": "支持我們",
+      "subMenu": []
     }
   ]
 }

@@ -1,7 +1,19 @@
 import React from "react";
+import Sidebar from "../components/Sidebar";
 
-const BulletinPage: React.FC = () => {
-  return <h1>主日週報</h1>;
+interface Props {
+  sidebarData: sidebarData;
+}
+
+const BulletinPage: React.FC<Props> = ({ sidebarData }) => {
+  return (
+    <>
+      <Sidebar sidebarData={sidebarData} />
+      <main className="main-content">
+        <h1>主日週報</h1>
+      </main>
+    </>
+  );
 };
 
 export default BulletinPage;
