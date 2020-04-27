@@ -20,12 +20,11 @@ import SupportUsPage from "./pages/SupportUsPage";
 import navbarData from "./data/navbar.data.json";
 
 const App: React.FC = () => {
-  console.log(navbarData);
   return (
     <div className="app">
       <Router>
         <Header />
-        <Navbar />
+        <Navbar navbarData={navbarData.data} />
         <Switch>
           <Route path="/" exact render={() => <HomePage />} />
           <Route

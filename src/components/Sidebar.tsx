@@ -6,7 +6,6 @@ interface Props {
 }
 
 const Sidebar: React.FC<Props> = ({ sidebarData }) => {
-  console.log(sidebarData);
   return (
     <aside className="sidebar">
       <h2>{sidebarData.mainMenu}</h2>
