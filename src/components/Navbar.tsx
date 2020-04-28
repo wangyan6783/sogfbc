@@ -13,8 +13,6 @@ const Navbar: React.FC<Props> = ({ navbarData }) => {
     showCommunity: false,
   });
 
-  console.log(navbarData);
-
   function getAttr(mainMenu: string) {
     if (mainMenu === "關於我們") return "showAboutUs";
     if (mainMenu === "教會活動") return "showEvents";
@@ -24,6 +22,7 @@ const Navbar: React.FC<Props> = ({ navbarData }) => {
   }
 
   function handleShow(attr: string, status: boolean) {
+    console.log(status);
     setState({
       ...state,
       [attr]: status,
@@ -39,7 +38,7 @@ const Navbar: React.FC<Props> = ({ navbarData }) => {
             <li
               className="navbar-menu"
               key={item.mainMenu}
-              onMouseEnter={() => handleShow(attr, true)}
+              onMouseOver={() => handleShow(attr, true)}
               onMouseLeave={() => handleShow(attr, false)}
             >
               {item.mainMenu === "支持我們" ? (
