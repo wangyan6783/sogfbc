@@ -22,7 +22,6 @@ const Navbar: React.FC<Props> = ({ navbarData }) => {
   }
 
   function handleShow(attr: string, status: boolean) {
-    console.log(status);
     setState({
       ...state,
       [attr]: status,

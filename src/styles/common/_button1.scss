@@ -3,15 +3,16 @@
   padding: 0.5rem 1rem;
   color: var(--color-grey-dark);
   background-color: transparent;
-  border: solid var(--color-grey-dark) 1px;
+  border: none;
+  border-top: solid var(--color-grey-dark) 1px;
+  border-bottom: solid var(--color-grey-dark) 1px;
+
   cursor: pointer;
   transition: all 0.3s;
 
   &:hover {
-    // color: var(--color-grey-light);
-    // background-color: var(--color-grey-dark);
-    // border: none;
     color: var(--color-primary);
-    border: solid var(--color-primary) 1px;
+    border-top: solid var(--color-primary) 1px;
+    border-bottom: solid var(--color-primary) 1px;
   }
 }

@@ -15,4 +15,13 @@ h3 {
 a {
   text-decoration: none;
   color: var(--color-grey-dark);
+
+  &:hover {
+    color: var(--color-primary);
+  }
+}
+
+.text-underline {
+  text-decoration: underline;
+  text-underline-position: under;
 }

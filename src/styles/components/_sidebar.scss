@@ -6,7 +6,7 @@
 
   h2 {
     color: var(--color-grey-light);
-    background-color: var(--color-grey-medium);
+    background-color: var(--color-primary);
   }
 
   h2 {
@@ -15,9 +15,5 @@
 
   h3 {
     padding: 1rem 1rem;
-
-    &:hover {
-      color: var(--color-primary);
-    }
   }
 }

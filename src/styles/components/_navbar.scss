@@ -7,18 +7,16 @@
   &-menu {
     flex-grow: 1;
     padding: 1rem 0;
+    text-align: center;
 
     &:not(:first-child) h2 {
       border-left: solid var(--color-grey-medium) 1px;
     }
 
-    h2,
-    h3 {
-      text-align: center;
-      &:hover {
-        color: var(--color-primary);
-      }
+    h2:hover {
+      color: var(--color-primary);
     }
+
     h3 {
       padding: 1rem 0;
     }
