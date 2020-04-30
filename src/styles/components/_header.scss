@@ -1,3 +1,16 @@
 .header {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
+
+  &-link {
+    display: flex;
+
+    &:hover {
+      color: var(--color-grey-dark);
+    }
+  }
+
+  &-logo {
+    width: 7.5rem;
+    margin-right: 1rem;
+  }
 }

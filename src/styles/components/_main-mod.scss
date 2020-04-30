@@ -6,12 +6,13 @@
     position: relative;
     flex-grow: 1;
     flex-basis: 0;
-    background-color: var(--color-grey-light);
     padding-bottom: 1rem;
+    background-color: var(--color-grey-light);
 
     &:not(:last-child) {
       margin-right: 1rem;
     }
+
     h2 {
       padding: 0.5rem 1.5rem;
       margin-bottom: 0.5rem;
