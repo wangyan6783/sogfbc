@@ -21,7 +21,11 @@ const HoursPage: React.FC<Props> = ({ sidebarData }) => {
         <h3>主日上午 9:30</h3>
         <h3>主日上午 11:00</h3>
         <h2>公車 Bus: Q65, Q27</h2>
-        <img className="location-image" src={locationImage} />
+        <img
+          className="location-image"
+          src={locationImage}
+          alt="church location"
+        />
       </main>
     </>
   );

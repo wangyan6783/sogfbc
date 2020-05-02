@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <Link to="/" className="header-link">
-        <img className="header-logo" src={Logo} />
+        <img className="header-logo" src={Logo} alt="church logo" />
         <div className="header-text">
           <h1>恩霖信心聖經教會</h1>
           <h2>Shower of Grace Faith Bible Church</h2>

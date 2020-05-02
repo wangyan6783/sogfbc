@@ -1,7 +1,7 @@
 .main-content {
-  height: 55rem;
+  height: 65rem;
   margin-left: 15rem;
-  padding: 0.5rem 2rem 2rem 2rem;
+  padding: 2rem;
   overflow: scroll;
 
   h1 {
@@ -16,6 +16,13 @@
   }
 
   .location-image {
-    width: 100%;
+    width: 80%;
+  }
+
+  .date-list {
+    display: flex;
+    li {
+      margin-right: 2rem;
+    }
   }
 }

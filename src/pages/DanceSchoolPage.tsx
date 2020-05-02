@@ -53,6 +53,7 @@ const DanceSchoolPage: React.FC<Props> = ({ sidebarData }) => {
           <a
             href="http://media.fbny.org.s3.amazonaws.com/After%20School/2015-16%20HC%20AFTER%20SCHOOL%20REGISTRATION%20FORM.pdf"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <strong>下載報名表</strong>
           </a>

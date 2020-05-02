@@ -11,6 +11,10 @@ const PhotoGalleryPage: React.FC<Props> = ({ sidebarData }) => {
       <Sidebar sidebarData={sidebarData} />
       <main className="main-content">
         <h1>活動照片</h1>
+        <h3>年終禱告會</h3>
+        <h3>平安夜福音晚會</h3>
+        <h3>燒烤BBQ</h3>
+        <h3>六週年慶典 </h3>
       </main>
     </>
   );
