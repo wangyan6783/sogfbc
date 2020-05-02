@@ -6,22 +6,25 @@
     position: relative;
     flex-grow: 1;
     flex-basis: 0;
-    padding-bottom: 1rem;
-    background-color: var(--color-grey-light);
 
     &:not(:last-child) {
       margin-right: 1rem;
     }
 
+    &-content {
+      background-color: var(--color-grey-light);
+      height: 11rem;
+      padding: 0.5rem 1.5rem;
+    }
+
     h2 {
       padding: 0.5rem 1.5rem;
       margin-bottom: 0.5rem;
-      color: var(--color-grey-light);
+      color: var(--color-white);
       background-color: var(--color-primary);
+      clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
     }
-    h3 {
-      padding: 0 1.5rem;
-    }
+
     .button1 {
       position: absolute;
       right: 2.5rem;

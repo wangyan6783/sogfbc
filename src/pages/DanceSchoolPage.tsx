@@ -46,8 +46,11 @@ const DanceSchoolPage: React.FC<Props> = ({ sidebarData }) => {
         <h3>
           認識古典芭蕾,培養正確姿勢及優美儀態；教導正確運用肌力及動作準確性。內容包括學習芭蕾基本動作、把桿練習、流動空間練習、旋轉能力訓練、柔軟度及彈性訓練、芭蕾術語、芭蕾小品舞蹈。
         </h3>
+
         <h3 className="text-underline">
-          <strong>指導老師</strong>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <strong>指導老師</strong>
+          </a>
         </h3>
         <h3 className="text-underline">
           <a

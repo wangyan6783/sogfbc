@@ -5,7 +5,9 @@ const MainModCol1: React.FC = () => {
   return (
     <div className="main-mod-col">
       <h2>主日崇拜線上看</h2>
-      <Button1 />
+      <div className="main-mod-col-content">
+        <Button1 />
+      </div>
     </div>
   );
 };

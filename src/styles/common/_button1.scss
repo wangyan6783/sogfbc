@@ -1,19 +1,17 @@
 .button1 {
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
-  color: var(--color-grey-dark);
-  background-color: transparent;
+  color: var(--color-white);
+  background-color: var(--color-secondary);
   border: none;
-  border-top: solid var(--color-grey-dark) 1px;
-  border-bottom: solid var(--color-grey-dark) 1px;
   outline: none;
-
   cursor: pointer;
   transition: all 0.3s;
 
   &:hover {
-    color: var(--color-primary);
-    border-top: solid var(--color-primary) 1px;
-    border-bottom: solid var(--color-primary) 1px;
+    background-color: var(--color-secondary-2);
+  }
+  &:active {
+    transform: translate(2px, 2px);
   }
 }
