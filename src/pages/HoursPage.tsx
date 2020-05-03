@@ -9,7 +9,7 @@ interface Props {
 const HoursPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="聚會時間" />
       <main className="main-content">
         <h1>聚會時間</h1>
         <h2>國語崇拜</h2>

@@ -7,7 +7,7 @@ interface Props {
 const SundaySchoolPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="成人主日學" />
       <main className="main-content">
         <h1>成人主日學</h1>
         <h3>2020年 3-5月課程</h3>

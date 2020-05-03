@@ -9,7 +9,7 @@ interface Props {
 const BulletinPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="主日週報" />
       <main className="main-content">
         <h1>主日週報</h1>
         {bulletinData.data.map((monthItem) => {

@@ -8,7 +8,7 @@ interface Props {
 const LifeGroupsPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="小組聚會" />
       <main className="main-content">
         <h1>小組聚會</h1>
         <h3>

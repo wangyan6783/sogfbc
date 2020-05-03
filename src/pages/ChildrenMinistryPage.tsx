@@ -7,7 +7,7 @@ interface Props {
 const ChildrenMinistryPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="兒童事工" />
       <main className="main-content">
         <h1>兒童事工 Children Ministry</h1>
         <h3>年齡: 4歲幼兒-小學5年級</h3>

@@ -8,7 +8,7 @@ interface Props {
 const DiscipleTrainingPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="門徒訓練" />
       <main className="main-content">
         <h1>門徒訓練</h1>
         <h3>

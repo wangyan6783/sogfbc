@@ -9,7 +9,7 @@ interface Props {
 const ServiceVideosPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="主日視頻" />
       <main className="main-content">
         <h1>主日視頻</h1>
         {serviceVideosData.data.map((monthItem) => {

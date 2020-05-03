@@ -8,7 +8,7 @@ interface Props {
 const PhotoGalleryPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="活動照片" />
       <main className="main-content">
         <h1>活動照片</h1>
         <h3>年終禱告會</h3>

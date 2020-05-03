@@ -8,7 +8,7 @@ interface Props {
 const ChurchHistoryPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="教會簡史" />
       <main className="main-content">
         <h1>教會簡史</h1>
         <h3>

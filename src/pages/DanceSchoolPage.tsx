@@ -7,7 +7,7 @@ interface Props {
 const DanceSchoolPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} />
+      <Sidebar sidebarData={sidebarData} currentTab="舞蹈學校" />
       <main className="main-content">
         <h1>舞蹈學校</h1>
         <h2>課程</h2>
