@@ -2,7 +2,7 @@
   "name": "sogfbc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wangyan6783.github.io/sogfbc",
+  "homepage": "https://sogfbc.org",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
