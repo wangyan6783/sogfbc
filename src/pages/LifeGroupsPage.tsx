@@ -11,9 +11,7 @@ const LifeGroupsPage: React.FC<Props> = ({ sidebarData }) => {
       <Sidebar sidebarData={sidebarData} currentTab="小組聚會" />
       <main className="main-content">
         <h1>小組聚會</h1>
-        <h3>
-          本教會為「信心聖經教會」母會在本地紐約法拉盛的植堂。同時亦延續母會「細胞小組教會」的路線。
-        </h3>
+        <h3>本教會以「細胞小組教會」的架構發展事工、建立信徒。</h3>
         <h3>
           「細胞小組」是教會生活的基本單位，它不是一個特別活動或附加活動，目的是敬拜和經歷神，彼此服事和對周圍的群體傳福音。
         </h3>
@@ -40,12 +38,12 @@ const LifeGroupsPage: React.FC<Props> = ({ sidebarData }) => {
         <h2>
           <strong>恩典青年小組</strong>
         </h2>
-        <h3>聚會時間: 週五晚上7:30</h3>
+        <h3>聚會時間: 週五晚上 7:30</h3>
         <h3>地點: 地下室小教室</h3>
         <h2>
           <strong>家庭小組</strong>
         </h2>
-        <h3>聚會時間: 每月第二、四週六</h3>
+        <h3>聚會時間: 每月第二、四週六晚上 6:30</h3>
         <h3>地點: 地下室大廳</h3>
         <h3 className="text-underline">
           <a href="" target="_blank" rel="noopener noreferrer">
