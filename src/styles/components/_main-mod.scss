@@ -3,7 +3,7 @@
   margin: 1rem 0;
 
   &-col {
-    position: relative;
+    // position: relative;
     flex-grow: 1;
     flex-basis: 0;
 
@@ -25,10 +25,17 @@
       padding: 0.5rem 1.5rem;
     }
 
+    &-content-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .button1 {
-      position: absolute;
-      right: 2.5rem;
-      bottom: 2.5rem;
+      // position: absolute;
+      // right: 2.5rem;
+      // bottom: 2.5rem;
+      margin-left: 2rem;
     }
   }
 }
