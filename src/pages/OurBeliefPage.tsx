@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import Sidebar from "../components/Sidebar";
-import ourBliefData from "../data/our-belief.data.json";
+import Sidebar from '../components/Sidebar';
+import ourBliefData from '../data/our-belief.data.json';
 
 interface Props {
   sidebarData: sidebarData;
@@ -9,9 +9,9 @@ interface Props {
 
 const OurBeliefPage: React.FC<Props> = ({ sidebarData }) => {
   return (
-    <>
-      <Sidebar sidebarData={sidebarData} currentTab="我們的信仰" />
-      <main className="main-content">
+    <div className='page'>
+      <Sidebar sidebarData={sidebarData} currentTab='我們的信仰' />
+      <main className='page-content'>
         <h1>我們的信仰</h1>
         <ul>
           {ourBliefData.data.map((item) => {
@@ -23,7 +23,7 @@ const OurBeliefPage: React.FC<Props> = ({ sidebarData }) => {
           })}
         </ul>
       </main>
-    </>
+    </div>
   );
 };
 

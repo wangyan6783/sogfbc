@@ -1,6 +1,6 @@
-import React from "react";
-import Sidebar from "../components/Sidebar";
-import locationImage from "../assets/location.png";
+import React from 'react';
+import Sidebar from '../components/Sidebar';
+import locationImage from '../assets/location.png';
 
 interface Props {
   sidebarData: sidebarData;
@@ -8,9 +8,9 @@ interface Props {
 
 const HoursPage: React.FC<Props> = ({ sidebarData }) => {
   return (
-    <>
-      <Sidebar sidebarData={sidebarData} currentTab="聚會時間" />
-      <main className="main-content">
+    <div className='page'>
+      <Sidebar sidebarData={sidebarData} currentTab='聚會時間' />
+      <main className='page-content'>
         <h1>聚會時間</h1>
         <h2>國語崇拜</h2>
         <h3>主日上午 9:30</h3>
@@ -22,12 +22,12 @@ const HoursPage: React.FC<Props> = ({ sidebarData }) => {
         <h3>主日上午 11:00</h3>
         <h2>公車 Bus: Q65, Q27</h2>
         <img
-          className="location-image"
+          className='location-image'
           src={locationImage}
-          alt="church location"
+          alt='church location'
         />
       </main>
-    </>
+    </div>
   );
 };
 

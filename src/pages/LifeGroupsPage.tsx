@@ -1,5 +1,5 @@
-import React from "react";
-import Sidebar from "../components/Sidebar";
+import React from 'react';
+import Sidebar from '../components/Sidebar';
 
 interface Props {
   sidebarData: sidebarData;
@@ -7,9 +7,9 @@ interface Props {
 
 const LifeGroupsPage: React.FC<Props> = ({ sidebarData }) => {
   return (
-    <>
-      <Sidebar sidebarData={sidebarData} currentTab="小組聚會" />
-      <main className="main-content">
+    <div className='page'>
+      <Sidebar sidebarData={sidebarData} currentTab='小組聚會' />
+      <main className='page-content'>
         <h1>小組聚會</h1>
         <h3>本教會以「細胞小組教會」的架構發展事工、建立信徒。</h3>
         <h3>
@@ -45,13 +45,13 @@ const LifeGroupsPage: React.FC<Props> = ({ sidebarData }) => {
         </h2>
         <h3>聚會時間: 每月第二、四週六晚上 6:30</h3>
         <h3>地點: 地下室大廳</h3>
-        <h3 className="text-underline">
-          <a href="" target="_blank" rel="noopener noreferrer">
+        <h3 className='text-underline'>
+          <a href='' target='_blank' rel='noopener noreferrer'>
             <strong>查經網站</strong>
           </a>
         </h3>
       </main>
-    </>
+    </div>
   );
 };
 

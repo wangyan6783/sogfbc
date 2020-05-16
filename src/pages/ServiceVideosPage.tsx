@@ -1,6 +1,6 @@
-import React from "react";
-import Sidebar from "../components/Sidebar";
-import serviceVideosData from "../data/service-videos.data.json";
+import React from 'react';
+import Sidebar from '../components/Sidebar';
+import serviceVideosData from '../data/service-videos.data.json';
 
 interface Props {
   sidebarData: sidebarData;
@@ -8,20 +8,20 @@ interface Props {
 
 const ServiceVideosPage: React.FC<Props> = ({ sidebarData }) => {
   return (
-    <>
-      <Sidebar sidebarData={sidebarData} currentTab="主日視頻" />
-      <main className="main-content">
+    <div className='page'>
+      <Sidebar sidebarData={sidebarData} currentTab='主日視頻' />
+      <main className='page-content'>
         <h1>主日視頻</h1>
         {serviceVideosData.data.map((monthItem) => {
           return (
-            <ul className="date-list">
+            <ul className='date-list'>
               {monthItem.map((dateItem) => {
                 return (
                   <li>
                     <a
                       href={dateItem.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       <h3>{dateItem.date}</h3>
                     </a>
@@ -32,7 +32,7 @@ const ServiceVideosPage: React.FC<Props> = ({ sidebarData }) => {
           );
         })}
       </main>
-    </>
+    </div>
   );
 };
 
