@@ -1,5 +1,5 @@
-import React from "react";
-import Sidebar from "../components/Sidebar";
+import React from 'react';
+import Sidebar from '../components/Sidebar';
 
 interface Props {
   sidebarData: sidebarData;
@@ -7,11 +7,11 @@ interface Props {
 const DanceSchoolPage: React.FC<Props> = ({ sidebarData }) => {
   return (
     <>
-      <Sidebar sidebarData={sidebarData} currentTab="舞蹈學校" />
-      <main className="main-content">
+      <Sidebar sidebarData={sidebarData} currentTab='舞蹈學校' />
+      <main className='main-content'>
         <h1>舞蹈學校</h1>
         <h2>課程</h2>
-        <h3 className="text-underline">
+        <h3 className='text-underline'>
           <strong>芭蕾基礎班 Pre-Ballet</strong>
         </h3>
         <h3>
@@ -20,7 +20,7 @@ const DanceSchoolPage: React.FC<Props> = ({ sidebarData }) => {
         <h3>
           <strong>時間 Time:</strong> 12:00pm-1:00pm 星期六 (Saturday)
         </h3>
-        <h3 className="text-underline">
+        <h3 className='text-underline'>
           <strong>古典芭蕾班 Classical Ballet</strong>
         </h3>
         <h3>
@@ -47,16 +47,20 @@ const DanceSchoolPage: React.FC<Props> = ({ sidebarData }) => {
           認識古典芭蕾,培養正確姿勢及優美儀態；教導正確運用肌力及動作準確性。內容包括學習芭蕾基本動作、把桿練習、流動空間練習、旋轉能力訓練、柔軟度及彈性訓練、芭蕾術語、芭蕾小品舞蹈。
         </h3>
 
-        <h3 className="text-underline">
-          <a href="" target="_blank" rel="noopener noreferrer">
+        <h3 className='text-underline'>
+          <a
+            href='https://drive.google.com/file/d/1EnInocakWyIMDAHbDRAImxYXkSKYJjb8/view'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <strong>指導老師</strong>
           </a>
         </h3>
-        <h3 className="text-underline">
+        <h3 className='text-underline'>
           <a
-            href="http://media.fbny.org.s3.amazonaws.com/After%20School/2015-16%20HC%20AFTER%20SCHOOL%20REGISTRATION%20FORM.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://drive.google.com/file/d/1A24M4XxBx1A-0pXGAlNNYI6N6vlnlS32/view'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <strong>下載報名表</strong>
           </a>
