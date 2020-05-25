@@ -1,10 +1,6 @@
 .navbar {
-  width: 120rem;
-  margin: 0 auto 1.5rem auto;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-primary);
-  color: var(--color-white);
   cursor: pointer;
 
   &-menu {
@@ -13,16 +9,11 @@
     text-align: center;
 
     &:not(:first-child) h2 {
-      border-left: solid var(--color-primary-2) 1px;
+      border-left: solid var(--color-grey-medium) 1px;
     }
 
-    &:hover {
-      background-color: var(--color-primary-2);
-    }
-
-    &-link,
-    &-link:hover {
-      color: var(--color-white);
+    h2:hover {
+      color: var(--color-primary);
     }
 
     h3 {
@@ -32,7 +23,7 @@
 
   &-submenu {
     display: none;
-    width: 24rem;
+    width: 18rem;
     background-color: var(--color-white);
     position: absolute;
     margin-top: 1rem;

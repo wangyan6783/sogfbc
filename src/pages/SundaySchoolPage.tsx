@@ -1,14 +1,14 @@
-import React from 'react';
-import Sidebar from '../components/Sidebar';
+import React from "react";
+import Sidebar from "../components/Sidebar";
 interface Props {
   sidebarData: sidebarData;
 }
 
 const SundaySchoolPage: React.FC<Props> = ({ sidebarData }) => {
   return (
-    <div className='page'>
-      <Sidebar sidebarData={sidebarData} currentTab='成人主日學' />
-      <main className='page-content'>
+    <>
+      <Sidebar sidebarData={sidebarData} currentTab="成人主日學" />
+      <main className="main-content">
         <h1>成人主日學</h1>
         <h3>2020年 3-5月課程</h3>
         <h2>1. 撒母耳記上下</h2>
@@ -17,8 +17,8 @@ const SundaySchoolPage: React.FC<Props> = ({ sidebarData }) => {
         </h3>
         <h3>上課時間: 主日上午 9:30</h3>
         <h3>老師: 何小芳姊妹</h3>
-        <h3 className='text-underline'>
-          <a href='' target='_blank' rel='noopener noreferrer'>
+        <h3 className="text-underline">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <strong>課堂講義</strong>
           </a>
         </h3>
@@ -28,13 +28,13 @@ const SundaySchoolPage: React.FC<Props> = ({ sidebarData }) => {
         </h3>
         <h3>上課時間: 主日上午 11:00</h3>
         <h3>老師: 王永姊妹</h3>
-        <h3 className='text-underline'>
-          <a href='' target='_blank' rel='noopener noreferrer'>
+        <h3 className="text-underline">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <strong>課堂講義</strong>
           </a>
         </h3>
       </main>
-    </div>
+    </>
   );
 };
 

@@ -3,6 +3,7 @@
   margin: 1rem 0;
 
   &-col {
+    // position: relative;
     flex-grow: 1;
     flex-basis: 0;
 
@@ -31,6 +32,9 @@
     }
 
     .button1 {
+      // position: absolute;
+      // right: 2.5rem;
+      // bottom: 2.5rem;
       margin-left: 2rem;
     }
   }

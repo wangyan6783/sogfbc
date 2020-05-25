@@ -1,14 +1,14 @@
-import React from 'react';
-import Sidebar from '../components/Sidebar';
+import React from "react";
+import Sidebar from "../components/Sidebar";
 
 interface Props {
   sidebarData: sidebarData;
 }
 const ChildrenMinistryPage: React.FC<Props> = ({ sidebarData }) => {
   return (
-    <div className='page'>
-      <Sidebar sidebarData={sidebarData} currentTab='兒童事工' />
-      <main className='page-content'>
+    <>
+      <Sidebar sidebarData={sidebarData} currentTab="兒童事工" />
+      <main className="main-content">
         <h1>兒童事工 Children Ministry</h1>
         <h3>年齡: 4歲幼兒-小學5年級</h3>
         <h2>A. 兒童主日學</h2>
@@ -29,27 +29,27 @@ const ChildrenMinistryPage: React.FC<Props> = ({ sidebarData }) => {
         <h3>成員: 需由教牧同工推薦，並填寫申請表</h3>
         <h3>練習時間:</h3>
         <h3>主日中午 1:00-2:00</h3>
-        <h3 className='text-underline'>消息</h3>
+        <h3 className="text-underline">消息</h3>
         <h3>
           為配合紐約政府抗疫規定，兒童主日學暫停上課，每週的功課會寄發給家長
         </h3>
-        <h3 className='text-underline'>
-          <a href='' target='_blank' rel='noopener noreferrer'>
+        <h3 className="text-underline">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <strong>服事表</strong>
           </a>
         </h3>
-        <h3 className='text-underline'>
-          <a href='' target='_blank' rel='noopener noreferrer'>
+        <h3 className="text-underline">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <strong>敬拜詩歌</strong>
           </a>
         </h3>
-        <h3 className='text-underline'>
-          <a href='' target='_blank' rel='noopener noreferrer'>
+        <h3 className="text-underline">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <strong>Newspaper</strong>
           </a>
         </h3>
       </main>
-    </div>
+    </>
   );
 };
 

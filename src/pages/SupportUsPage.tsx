@@ -1,5 +1,5 @@
-import React from 'react';
-import Sidebar from '../components/Sidebar';
+import React from "react";
+import Sidebar from "../components/Sidebar";
 
 interface Props {
   sidebarData: sidebarData;
@@ -7,9 +7,9 @@ interface Props {
 
 const SupportUsPage: React.FC<Props> = ({ sidebarData }) => {
   return (
-    <div className='page'>
+    <>
       <Sidebar sidebarData={sidebarData} />
-      <main className='page-content'>
+      <main className="main-content">
         <h1>支持我們</h1>
         <h3>目前本教會採用支票奉獻的方式</h3>
         <h3>
@@ -23,7 +23,7 @@ const SupportUsPage: React.FC<Props> = ({ sidebarData }) => {
         <h3>163-16 Pidgeon Meadow Rd.</h3>
         <h3>Flushing, NY 11358</h3>
       </main>
-    </div>
+    </>
   );
 };
 
