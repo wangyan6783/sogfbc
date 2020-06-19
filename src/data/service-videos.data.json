@@ -1,6 +1,35 @@
 {
   "data": [
-    [{ "date": "2020-05-03", "link": "https://youtu.be/-Zp9YMoUh7Y" }],
+    [
+      { "date": "2020-06-07", "link": "https://youtu.be/-Zp9YMoUh7Y" },
+      {
+        "date": "2020-06-14 Part 1",
+        "link": "https://www.youtube.com/watch?v=mkBk419KuT8"
+      },
+      {
+        "date": "2020-06-14 Part 2",
+        "link": "https://www.youtube.com/watch?v=xQZ7237bJdY"
+      }
+    ],
+    [
+      { "date": "2020-05-03", "link": "https://youtu.be/-Zp9YMoUh7Y" },
+      {
+        "date": "2020-05-10",
+        "link": "https://www.youtube.com/watch?v=Z_hZELTY_Ow"
+      },
+      {
+        "date": "2020-05-17",
+        "link": "https://www.youtube.com/watch?v=QaL67qAp5Tw"
+      },
+      {
+        "date": "2020-05-24",
+        "link": "https://www.youtube.com/watch?v=lFCYgGLP2pc"
+      },
+      {
+        "date": "2020-05-31",
+        "link": "https://www.youtube.com/watch?v=GlafAJ7jBQo"
+      }
+    ],
     [
       { "date": "2020-04-05", "link": "https://youtu.be/BpaRI1_SuJE" },
       { "date": "2020-04-12", "link": "https://youtu.be/1drAzBpZVTM" },
